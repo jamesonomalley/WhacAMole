@@ -1,0 +1,36 @@
+.grid {
+    height: 606px;
+    width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+}
+
+.play {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.play:hover {
+    opacity: 0.8;
+}
